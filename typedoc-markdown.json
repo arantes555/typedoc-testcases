@@ -1,0 +1,10 @@
+{
+  "entryPoints": ["./src/index.ts"],
+  "out": "./docs-md",
+  "theme": "markdown",
+  "excludeInternal": true,
+  "disableSources": true,
+  "hideBreadcrumbs": true,
+  "githubPages": false,
+  "readme": "none"
+}

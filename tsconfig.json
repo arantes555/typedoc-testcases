@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./",
+    "target": "ES2019",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "declaration": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "sourceMap": true
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": []
+}

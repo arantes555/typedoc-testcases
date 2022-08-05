@@ -1,0 +1,9 @@
+{
+  "entryPoints": ["./src/index.ts"],
+  "out": "./docs-html",
+  "plugin": [],
+  "excludeInternal": true,
+  "disableSources": true,
+  "githubPages": false,
+  "readme": "none"
+}
