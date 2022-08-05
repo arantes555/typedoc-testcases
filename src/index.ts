@@ -5,10 +5,14 @@ export default (args: {
   argStringOpt?: string,
   /** description of argNumber */
   argNumber: number
-  /** description of argFunc */
-  argFunc: () => void
+  /** description of argFuncWithInlineType */
+  argFuncWithInlineType: () => void
+  /** description of argFuncWithNamedType */
+  argFuncWithNamedType: MyCallBack
   argWithoutDesc: number
 }) => {}
+
+export type MyCallBack = () => void
 
 export interface CustomTypeWithUnderscore {
   _propertyWithUnderscore: number
